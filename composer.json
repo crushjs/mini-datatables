@@ -1,6 +1,7 @@
 {
     "name": "crushjs/mini-datatables",
     "description": "Mini Laravel DataTables",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Crushjs\\MiniDataTables\\": "src/"
