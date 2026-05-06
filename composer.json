@@ -1,0 +1,20 @@
+{
+    "name": "crushjs/mini-datatables",
+    "description": "Mini Laravel DataTables",
+    "autoload": {
+        "psr-4": {
+            "Crushjs\\MiniDataTables\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Crushjs\\MiniDataTables\\MiniDataTablesServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0"
+    }
+}
