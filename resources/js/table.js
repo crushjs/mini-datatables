@@ -10,11 +10,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
 
     const result = await response.json();
-
     const tbody = table.querySelector("tbody");
-
     const headers = table.querySelectorAll("th");
-
     result.data.forEach((row) => {
         let tr = document.createElement("tr");
 
@@ -27,7 +24,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
             tr.appendChild(td);
         });
-
         tbody.appendChild(tr);
     });
 });
