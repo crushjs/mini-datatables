@@ -1,0 +1,10 @@
+.mini-datatable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.mini-datatable th,
+.mini-datatable td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
