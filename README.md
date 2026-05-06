@@ -284,9 +284,6 @@ Crushjs
 GitHub:
 https://github.com/crushjs
 
-```
-
----
 
 # Screenshots
 
