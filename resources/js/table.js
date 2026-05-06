@@ -30,6 +30,4 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         tbody.appendChild(tr);
     });
-
-    
 });
