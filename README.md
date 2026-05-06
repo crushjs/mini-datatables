@@ -12,6 +12,7 @@ A lightweight Laravel DataTables package inspired by Yajra DataTables.
 - Pagination
 - Sorting
 - Custom columns
+- Raw columns
 - Laravel auto-discovery
 
 ---
@@ -84,7 +85,7 @@ Route::get('/users', function () {
 return MiniDataTables::of(
     User::query()
 )
-->search('name')
+->search('name', 'test')
 ->make();
 ```
 
@@ -152,6 +153,18 @@ return MiniDataTables::of(
 
 ---
 
+# Raw Column
+
+```php
+return MiniDataTables::of(
+    User::query()
+)
+->rawColumns(['action'])
+->make();
+```
+
+---
+
 # Full Example
 
 ```php
@@ -169,6 +182,7 @@ Route::get('/users', function () {
     ->addColumn('action', function ($user) {
         return '<button>Edit</button>';
     })
+    ->rawColumns(['action'])
     ->make();
 
 });
