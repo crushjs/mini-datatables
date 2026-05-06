@@ -27,6 +27,14 @@ composer require crushjs/mini-datatables
 
 ---
 
+## Publish Assets
+
+```bash
+php artisan vendor:publish --tag=minidatatables-assets
+```
+
+---
+
 # Laravel Auto Discovery
 
 The package supports Laravel auto-discovery.
@@ -277,3 +285,29 @@ GitHub:
 https://github.com/crushjs
 
 ```
+
+---
+
+# Screenshots
+
+## Table UI
+
+![Table UI](https://raw.githubusercontent.com/crushjs/mini-datatables/main/screenshots/table.png)
+
+---
+
+## Controller Example
+
+![Controller](https://raw.githubusercontent.com/crushjs/mini-datatables/main/screenshots/controller.png)
+
+---
+
+## Blade Usage
+
+![Blade](https://raw.githubusercontent.com/crushjs/mini-datatables/main/screenshots/blade.png)
+
+---
+
+## Route Example
+
+![Route](https://raw.githubusercontent.com/crushjs/mini-datatables/main/screenshots/route.png)
