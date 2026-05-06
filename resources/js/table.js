@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             "X-Requested-With": "XMLHttpRequest",
         },
     });
-
     const result = await response.json();
     const tbody = table.querySelector("tbody");
     const headers = table.querySelectorAll("th");
